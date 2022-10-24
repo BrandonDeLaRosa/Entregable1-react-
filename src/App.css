@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quoteBox{
+    background-color: white;
+    padding: 1rem 3rem 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 5px;
+}
+
+.quoteNumber{
+    text-align: center;
+    font-size: 25px;
+}
+
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+}
+
+.quoteMark{
+    text-align: left;
+    font-size: 50px;
+    margin: 0px 0px 0px -30px;
+}
+
+.author{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.button{
+    font-size: 40px;
+    text-align: right;
+    margin: 20px 0px 0px 0px;
+} 
+
+input{
+  font-weight: bold;  
+  width: 200px;
+  border-radius: 0rem 1rem 1rem 0rem;
+  border: none;
+  padding-left: 5px;
+}
+
+.userSearchBtn{
+    width: 100px;
+    height: 20px;
+    border-radius: 1rem;
+}
